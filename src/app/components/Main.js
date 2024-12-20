@@ -1,31 +1,53 @@
-import Card from './Card'
+import Card from "./Card";
 
 const cards = [
   {
-    title: 'The Coldest Sunset',
-    img: 'https://images.unsplash.com/photo-1731410612760-4d9ae680d5e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: "Super Smash Bros. Ultimate",
+    img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcScl41uHkBqyBfTvzO-GCkm5AwimR8O9yYdz4Hc9Mluq8W0sbXH6q632lFYdSGLteV3Gs-N",
+    description: "Crossover Platform Fighting Game Action!",
+    link: "/ssbu-game",
   },
   {
-    title: 'The Darkest Sunset',
-    img: 'https://images.unsplash.com/photo-1520038569969-98da7959fcbd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: "Cookie Clicker",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHfqI3laT7oMMKNDel0XdNrGbWs2Tkv-wNkPFDKIAbn-YjATxTOMbDxusjjtoHpK89SZUP",
+    description: "Idle Pastry Business Simulator.",
+    link: "/cookie-game",
   },
   {
-    title: 'The Warmest Sunset',
-    img: 'https://images.unsplash.com/photo-1716204162377-e675dc53fd7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    title: "Ultimate Marvel VS Capcom 3",
+    img: "https://assetsio.gnwcdn.com/co1yej.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp",
+    description:
+      "Traditonal Fighting Game Action with Marvel and Capcom Characters.",
+    link: "/umvc-game",
   },
-]
+  {
+    title: "Bloons Tower Defense 6",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMLM2jmuFDTnxF0I3keHlQHInQtcdZW--LvYdtyThe6lEkPgUZ2WkK21v4qiPvGFWVUO7Gdw",
+    description:
+      "Tower Defense Game where you help the Monkeys defend against the evil Balloons.",
+    link: "/monkey-game",
+  },
+  {
+    title: "Minecraft",
+    img: "https://m.media-amazon.com/images/M/MV5BNjQzMDlkNDctYmE3Yi00ZWFiLTlmOWYtMjI4MzQ4Y2JhZjY2XkEyXkFqcGc@._V1_.jpg",
+    description:
+      "3D Sandbox game where you play and survive in a virtual world.",
+    link: "/block-game",
+  },
+];
 
 export default function Main() {
   return (
-    <main>
-      <div
-        className="flex gap-x-12 my-12 flex-wrap gap-y-6"
-        id="card-container"
-      >
-        {cards.map((card, index) => (
-          <Card key={index} title={card.title} image={card.img} />
-        ))}
-      </div>
-    </main>
-  )
+    <div className="flex flex-wrap gap-6 justify-start p-6" id="card-container">
+      {cards.map((card, index) => (
+        <Card
+          key={index}
+          description={card.description}
+          title={card.title}
+          image={card.img}
+          link={card.link}
+        />
+      ))}
+    </div>
+  );
 }

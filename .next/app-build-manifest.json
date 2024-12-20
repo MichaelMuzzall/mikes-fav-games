@@ -16,6 +16,36 @@
       "static/chunks/main-app.js",
       "static/css/app/about/page.css",
       "static/chunks/app/about/page.js"
+    ],
+    "/cookie-game/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/cookie-game/page.css",
+      "static/chunks/app/cookie-game/page.js"
+    ],
+    "/block-game/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/block-game/page.css",
+      "static/chunks/app/block-game/page.js"
+    ],
+    "/ssbu-game/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/ssbu-game/page.css",
+      "static/chunks/app/ssbu-game/page.js"
+    ],
+    "/umvc-game/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/umvc-game/page.css",
+      "static/chunks/app/umvc-game/page.js"
+    ],
+    "/monkey-game/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/monkey-game/page.css",
+      "static/chunks/app/monkey-game/page.js"
     ]
   }
 }
