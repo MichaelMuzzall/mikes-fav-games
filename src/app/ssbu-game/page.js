@@ -1,4 +1,4 @@
-import SimpleGallery from "../components/simplegallery";
+import SimpleGallery from "../components/SimpleGallery";
 const images = [
   {
     imageURL:

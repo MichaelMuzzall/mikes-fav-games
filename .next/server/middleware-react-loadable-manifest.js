@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"app\\\\components\\\\simplegallery.js -> photoswipe\":{\"id\":\"app\\\\components\\\\simplegallery.js -> photoswipe\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_photoswipe_dist_photoswipe_esm_js.js\"]}}"
