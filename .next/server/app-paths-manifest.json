@@ -1,9 +1,0 @@
-{
-  "/icon.jpg/route": "app/icon.jpg/route.js",
-  "/page": "app/page.js",
-  "/about/page": "app/about/page.js",
-  "/block-game/page": "app/block-game/page.js",
-  "/cookie-game/page": "app/cookie-game/page.js",
-  "/ssbu-game/page": "app/ssbu-game/page.js",
-  "/umvc-game/page": "app/umvc-game/page.js"
-}
